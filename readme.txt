@@ -12,21 +12,21 @@ Sample output
 Depth First Search
 X X X X X X X X X X X X X X X X X X X X 
 
-X S X O X O X O # # O X # # X O X O X X 
+X S O O O # # # # # # O O O O X O X X X 
 
-X # X O O X O O # # X # # # X X O O O X 
+X # O O O # O X # # # X O X X O O X X X 
 
-X # X O O X O O # # # # X # # X X X O X 
+X # O O O # X O # # # O O O O X O X O X 
 
-X # O X O O X X # X # # O X # X X O O X 
+X # O O O # O O X X # # O O O # # O O X 
 
-X # X O O O X # # O # # O X # O O X O X 
+X # O O X # X X O X X # O O X # # O O X 
 
-X # X O O X # # X X X O X O # # O O O X 
+X # # O # # O O O O O # X X O # # O O X 
 
-X # # # X # # O X O X O O X X # # O X X 
+X X # # # X O X O O X # X O X # # X O X 
 
-X O X # # # O X X O O O O O O X # # E X 
+X O X # # O O X X O X # # # # # # # E X 
 
 X X X X X X X X X X X X X X X X X X X X 
 
@@ -34,23 +34,22 @@ X X X X X X X X X X X X X X X X X X X X
 Breadth First Search
 X X X X X X X X X X X X X X X X X X X X 
 
-X S X O X O X O O O O X O O X O X O X X 
+X S O O O O O O O O O O O O O X O X X X 
 
-X # X O O X O O O O X # # # X X O O O X 
+X # O O O O O X O O O X O X X O O X X X 
 
-X # X O O X O O # # # # X # # X X X O X 
+X # O O O O X O O O O O O O O X O X O X 
 
-X # O X O O X X # X O O O X # X X O O X 
+X # O O O O O O X X O O O O O O O O O X 
 
-X # X O O O X # # O O O O X # O O X O X 
+X # O O X O X X O X X O O O X O O O O X 
 
-X # X O O X # # X X X O X O # # O O O X 
+X # # # # # # # # # # # X X O O O O O X 
 
-X # # # X # # O X O X O O X X # # O X X 
+X X O O O X O X O O X # X O X O O X O X 
 
-X O X # # # O X X O O O O O O X # # E X 
+X O X O O O O X X O X # # # # # # # E X
 
 X X X X X X X X X X X X X X X X X X X X
-
 
 

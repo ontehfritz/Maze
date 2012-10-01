@@ -3,73 +3,145 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Dropbox/Projects/maze/searchengine.py</string>
+	<string>readme.txt</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
+			<string>readme.txt</string>
+			<key>lastUsed</key>
+			<date>2012-10-01T08:44:14Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
 			<string>dimension.py</string>
+			<key>lastUsed</key>
+			<date>2012-10-01T08:43:13Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>maze.py</string>
+			<key>lastUsed</key>
+			<date>2012-10-01T08:44:14Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>queue.py</string>
+			<key>lastUsed</key>
+			<date>2012-10-01T08:43:10Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>run.py</string>
 			<key>lastUsed</key>
-			<date>2012-10-01T08:28:20Z</date>
+			<date>2012-10-01T08:34:54Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>searchengine.py</string>
 			<key>lastUsed</key>
-			<date>2012-10-01T08:28:20Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2012-10-01T08:34:39Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>Dropbox/Projects/maze/run.py</key>
+		<key>dimension.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>25</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>9</integer>
+		</dict>
+		<key>maze.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>26</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>53</integer>
+		</dict>
+		<key>queue.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>25</integer>
+				<key>line</key>
+				<integer>1</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>readme.txt</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>42</integer>
+				<integer>21</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>10</integer>
+			<integer>0</integer>
 		</dict>
-		<key>Dropbox/Projects/maze/searchengine.py</key>
+		<key>run.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2</integer>
+				<integer>32</integer>
 				<key>line</key>
-				<integer>102</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>77</integer>
+			<integer>0</integer>
+		</dict>
+		<key>searchengine.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>32</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>Dropbox/Projects/maze/run.py</string>
-		<string>Dropbox/Projects/maze/searchengine.py</string>
+		<string>run.py</string>
+		<string>queue.py</string>
+		<string>maze.py</string>
+		<string>readme.txt</string>
+		<string>dimension.py</string>
+		<string>searchengine.py</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
