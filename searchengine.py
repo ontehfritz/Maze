@@ -8,7 +8,7 @@
 import dimension
 import maze
 import copy
-import queue
+import fifoqueue
 
 
 class SearchEngine:
@@ -101,7 +101,7 @@ class SearchEngine:
 		"""	
 		alreadyVisited = []
 		predecessor = []
-		dimqueue = queue.Queue()
+		dimqueue = fifoqueue.Queue()
 		
 		nones = []
 		bools = []

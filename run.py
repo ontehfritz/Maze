@@ -7,7 +7,6 @@
 import maze
 import searchengine
 import dimension
-import queue
 import copy
 
 solvable = False
@@ -29,11 +28,11 @@ while(solvable != True):
 	solvable = s.depthFirstSearch(loc,1)
 	
 
-print "Depth First Search"
+print("Depth First Search")
 s.getSearchPath().renderConsoleMaze()
 
-print ""
-print "Breadth First Search"
+print("")
+print("Breadth First Search")
 
 s = searchengine.SearchEngine(m2)
 s.breadthFirstSearch()
