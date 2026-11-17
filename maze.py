@@ -65,19 +65,17 @@ class Maze:
 		"""
 		Generates a random maze
 		"""
-		ran = random.Random();
-		ran.seed()
 		for _y in range(self.y):
 			self.maze[_y][0] = self.maze[_y][self.x-1] = self.OBSTICLE
 		for _x in range(self.x):
 			self.maze[0][_x] = self.maze[self.y-1][_x] = self.OBSTICLE
 		
-		_max = (self.x*self.y)/3
+		_max = (self.x*self.y)//3
 		for _r in range(_max):
-			self.setValue(ran.randint(0,self.x-1),ran.randint(0,self.y-1),self.OBSTICLE)
+			self.setValue(random.randint(0,self.x-1),random.randint(0,self.y-1),self.OBSTICLE)
 			
-		self.setValue(1,1,self.START_LOC_VALUE);
-		self.setValue(self.x-2,self.y-2,self.GOAL_LOC_VALUE);
+		self.setValue(1,1,self.START_LOC_VALUE)
+		self.setValue(self.x-2,self.y-2,self.GOAL_LOC_VALUE)
 	
 	
 	def renderConsoleMaze(self):
@@ -87,15 +85,15 @@ class Maze:
 		for _y in range(self.y):
 			for _x in range(self.x):
 				if self.maze[_y][_x] == 0:
-					print "O",
+					print("O", end=" ")
 				elif self.maze[_y][_x] == -1:
-					print "X",
+					print("X", end=" ")
 				elif self.maze[_y][_x] == self.GOAL_LOC_VALUE:
-					print "E",
+					print("E", end=" ")
 				elif self.maze[_y][_x] == self.START_LOC_VALUE:
-					print "S",
+					print("S", end=" ")
 				else:
-					print "#",
+					print("#", end=" ")
 					
-			print "\n"
+			print("\n")
 			

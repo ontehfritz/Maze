@@ -1,6 +1,14 @@
 Another older project from the vault. It is maze generator and solver. Using two algorithms Depth First and Breadth First. All output is printed to the console, but could easily be adapted for something more graphical. 
 
-Please run with run.py. You will need to expand your windows to see both maze solutions. 
+Requires Python 3. Run it from the repo root with:
+
+    python3 run.py
+
+You will need to expand your windows to see both maze solutions.
+
+Run the tests from the repo root (standard library unittest, nothing to install):
+
+    python3 -m unittest -v
 
 Sample output
 (X = Wall
